@@ -1,3 +1,8 @@
+## Learning Laravel Course
+This is a video tutorial course from Tutsplus about "Learning Laravel 5" by Jeffrey Way.
+I choose this course to start my Laravel journey.
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
