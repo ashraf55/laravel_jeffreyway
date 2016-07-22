@@ -11,9 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('contact', function () {
-    return view('welcome@contact');
-});
+Route::get('/', 'WelcomeController@index');
+Route::get('contact', 'WelcomeController@contact');
