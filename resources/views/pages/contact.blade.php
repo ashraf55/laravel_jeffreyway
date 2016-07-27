@@ -1,11 +1,13 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Contact Page</title>
-    </head>
-    <body>
-        <h1>Contact Me</h1>
+@extends('app')
+@section('content')
 
-    </body>
-</html>
+    <h1>Contact Me</h1>
+
+@endsection
+
+@section('footer')
+    <script>
+        alert('Only Contact page has a footer section');
+    </script>
+    <link rel="script" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" >
+@endsection
